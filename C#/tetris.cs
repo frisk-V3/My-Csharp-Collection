@@ -34,7 +34,7 @@ public class Tetris : Form
     bool isFullScreen = false;
 
     Tetromino[] shapes =
-    {
+    {   //ミノデータ
         new Tetromino(new int[,] { {1,1,1,1} }, Color.Cyan),          // I
         new Tetromino(new int[,] { {1,1},{1,1} }, Color.Yellow),      // O
         new Tetromino(new int[,] { {0,1,0},{1,1,1} }, Color.Purple),  // T
